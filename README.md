@@ -8,7 +8,7 @@ This codebase is a static-file representation of a localhost-manged WordPress in
 
 ## Documentation
 
-Here are some quick credits for addons and other third party items used to build the current public version of the JH.io site.  
+Here are some quick credits for addons and other third party items used to build the current public version of the site.  
 
 [Simply Static](https://wordpress.org/plugins/simply-static/) by [Patrick Posner](https://patrickposner.dev/)
 
