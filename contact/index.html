@@ -66,15 +66,16 @@ img.emoji {
 
 #sfix:not(.d-none)~* .header.affix {left: unset;}
 
-/*LOWER LOGO OPACITY*/
+/*LOGO ADJUSTMENTS*/
 
-.logo img {opacity: 0.84;}
+@media screen and (max-height: 750px) { 
+	.logo img { display: none; }
+}
 
-/*INCREASE LOGO SIZE*/
-
-.logo img {max-height: 133px;}
-
-/*PRIMARY LOGO TEXT HANDLING*/
+.logo img {
+  opacity: 0.84;
+  max-height: 125px;
+  }
 
 .logo-text-primary {
 	font-weight: normal !important;
@@ -84,7 +85,7 @@ img.emoji {
 /*ALIGN FRONT PAGE MAIN MENU*/
 
 @media screen and (min-width: 1200px) { 
-	.top-menu { margin-top: -7em; }
+	.top-menu { margin-top: -3em; }
 }
 
 /*FRONT PAGE MENU META*/
