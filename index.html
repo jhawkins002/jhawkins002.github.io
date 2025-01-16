@@ -125,7 +125,8 @@ img.emoji {
 /*GUSSY UP THE FOOTER ON FRONT PAGE*/
 .copyright {
     background-color: #00000091;
-    margin-top: -4.71em;
+    margin-top: -3.71em;
+    font-size: small;
     z-index: 1;
     }
 .copyright .copyright-text {
@@ -138,9 +139,18 @@ img.emoji {
     font-weight: bold;
     }
     
+.copyright .pb-1 { margin-bottom: .5em; }
+.copyright .pt-1 { margin-top: .5em; }
+    
 /*GUSSY UP THE FOOTER ON FRONT PAGE*/
 
 #to-top { display: none !important; }
+
+@media screen and (max-width: 438px;) {
+.copyright {
+    margin-top: -4.71em !important;
+    }
+}
 
     
 </style>
