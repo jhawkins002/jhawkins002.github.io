@@ -68,10 +68,14 @@ img.emoji {
 
 /*LOGO ADJUSTMENTS*/
 
-@media screen and (max-height: 750px) { 
+@media screen and (max-height: 750px) and (min-width: 1200px) { 
 	.logo img { display: none; }
-}
-
+	#header .logo.logo-vertical {
+	  margin-top: 1em;
+	  padding-bottom: 2em !important;
+	  }
+  }
+  
 .logo img {
   opacity: 0.84;
   max-height: 125px;
