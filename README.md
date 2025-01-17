@@ -2,13 +2,13 @@
 # JohnLHawkins.com
 This is a repo housing the site contents for my personal webpage - hosted through GitHub Pages. 
 
-This codebase is a static-file representation of a localhost-manged WordPress install used for development tasks and research on block editor customization.
+This codebase is based on a static-file export of a localhost WordPress install used for development tasks and research on block editor customization, although meaningful customization has been done post-export to clean up various elements.
 
 
 
-## Documentation
+## Notes
 
-Here are some quick credits for addons and other third party items used to build the current public version of the site.  
+A few quick credits for various third party items used in the current public version of the site:  
 
 [Simply Static](https://wordpress.org/plugins/simply-static/) by [Patrick Posner](https://patrickposner.dev/)
 
@@ -16,4 +16,3 @@ Here are some quick credits for addons and other third party items used to build
 
 [Phosphor Duotone Icons](https://www.svgrepo.com/collection/phosphor-duotone-icons/)
 
-[Polygon Luminary SVG/CSS Wallpaper](https://bgjar.com/polygon-luminary) from [BGJar](https://bgjar.com/)
