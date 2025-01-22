@@ -189,8 +189,7 @@ img.emoji {
 
 .menu-item-type-post_type { font-size: 1.1em; }
 
-@media screen and (max-width: 1199px) { 
-  .menu-item-type-post_type { font-size: 1.2em; } 
+@media screen and (min-width: 1200px) {
   .top-menu li a:before {
     opacity: .3;
     height: 0.45em;
@@ -202,6 +201,10 @@ img.emoji {
     width: 110%;
     margin-left: -.2em;
     }    
+}
+
+@media screen and (max-width: 1199px) { 
+  .menu-item-type-post_type { font-size: 1.2em; } 
 }
 
 /*SET PADDING BETWEEN TITLE AND CONTENT AT TOP OF PAGES*/
