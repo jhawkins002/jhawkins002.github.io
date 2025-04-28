@@ -10,7 +10,5 @@ This codebase was originally based on a static-file export of a localhost WordPr
 
 A few quick credits for various third party items used in the current public version of the site:  
 
-[Simply Static](https://wordpress.org/plugins/simply-static/) by [Patrick Posner](https://patrickposner.dev/)
-
 [Phosphor Duotone Icons](https://www.svgrepo.com/collection/phosphor-duotone-icons/)
 
